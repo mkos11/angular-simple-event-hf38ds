@@ -3,15 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.css'],
 })
-
-export class AppComponent  {
-
-  constructor () {}
+export class AppComponent {
+  constructor() {}
 
   saySomething() {
-    alert("good day")
+    alert('Bad day');
   }
-  
 }
